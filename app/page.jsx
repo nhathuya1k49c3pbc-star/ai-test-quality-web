@@ -552,7 +552,7 @@ export default function Page() {
             <textarea value={keyText.mc} onChange={(e) => updateKeyText("mc", e.target.value)} rows={5} className="mt-3 w-full rounded-2xl border border-slate-200 bg-slate-50 p-3 text-sm outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-100" />
           </label>
           <label className="rounded-3xl border border-slate-200/80 bg-white/90 p-5 shadow-sm ring-1 ring-slate-950/5">
-            <p className="font-semibold">Đ/S key, C13–C16</p>
+            <p className="font-semibold">True/False(Đ/S) key, C13–C16</p>
             <textarea value={keyText.ds} onChange={(e) => updateKeyText("ds", e.target.value)} rows={5} className="mt-3 w-full rounded-2xl border border-slate-200 bg-slate-50 p-3 text-sm outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-100" />
           </label>
           <label className="rounded-3xl border border-slate-200/80 bg-white/90 p-5 shadow-sm ring-1 ring-slate-950/5">
