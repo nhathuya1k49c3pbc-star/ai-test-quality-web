@@ -22,11 +22,11 @@ const DEFAULT_ANSWER_KEY = {
 };
 
 const quickPrompts = [
-  "Create a Grade 10 Statistics test blueprint with 12 MC, 4 Đ/S questions with 4 statements each, and 6 numerical-response questions.",
-  "Generate multiple-choice, đúng/sai, and numerical-response questions aligned with the Vietnamese 2018 curriculum.",
+  "Create a mathematics test blueprint aligned with the Vietnamese 2018 General Education Curriculum.",
+  "Generate multiple-choice, true/false, and numerical-response mathematics questions aligned with the Vietnamese 2018 curriculum.",
   "Create answer keys and scoring rubrics for this mathematics test.",
-  "Review this test for curriculum alignment, clarity, scoring rules, and item quality.",
-  "Improve the distractors in these multiple-choice questions.",
+  "Review this mathematics test for curriculum alignment, clarity, scoring rules, and item quality.",
+  "Improve the distractors in these multiple-choice mathematics questions.",
 ];
 
 const researchEvidence = [
